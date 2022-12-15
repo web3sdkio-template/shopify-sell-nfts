@@ -80,7 +80,7 @@ To mint the NFTs, we connect to our NFT collection using the TypeScript SDK:
 
 ```js
 const sdk = Web3sdkioSDK.fromPrivateKey(
-  // Learn more about securely accessing your private key: https://portal.web3sdk.io/sdk/set-up-the-sdk/securing-your-private-key
+  // Learn more about securely accessing your private key: https://docs.web3sdk.io/sdk/set-up-the-sdk/securing-your-private-key
   ADMIN_PRIVATE_KEY,
   "goerli"
 );
@@ -119,4 +119,4 @@ for (const item of itemsPurchased) {
 
 ## Join our Discord!
 
-For any questions or suggestions, join our discord at [https://discord.gg/web3sdkio](https://discord.gg/web3sdkio).
+For any questions or suggestions, join our discord at [https://discord.gg/n33UhsfUKB](https://discord.gg/n33UhsfUKB).

@@ -44,7 +44,7 @@ app.post("/webhooks/orders/create", async (req, res) => {
     const itemsPurchased = response.body.order.line_items;
 
     const sdk = Web3sdkioSDK.fromPrivateKey(
-      // Learn more about securely accessing your private key: https://portal.web3sdk.io/sdk/set-up-the-sdk/securing-your-private-key
+      // Learn more about securely accessing your private key: https://docs.web3sdk.io/sdk/set-up-the-sdk/securing-your-private-key
       ADMIN_PRIVATE_KEY,
       "goerli"
     );
